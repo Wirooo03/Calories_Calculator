@@ -151,3 +151,33 @@ button {
         gap: 15px;
     }
 }
+
+/* Tambahkan di akhir file CSS sebelumnya */
+.info-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #4a90e2;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid rgba(255,255,255,0.2);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.info-button:hover {
+    background-color: #5f3dc4;
+    transform: scale(1.1);
+}
+
+.card {
+    position: relative; /* Tambahkan ini untuk positioning tombol info */
+}
